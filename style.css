@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(4, 252, 95);
+}
+
+h1 {
+    color: brown;
+    border-radius:4px;
+    border: solid black;
+}
+
+p {
+    color: rgb(34, 16, 234);
+    border-radius: 5px ;
+    border: dotted white;
+}

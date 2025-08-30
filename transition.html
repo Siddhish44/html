@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+        div {
+            background-color: aqua;
+            width: 100px;
+            height: 100px;
+            transition: transform 0.4s ease-in-out, box-shadow 0.4s;
+            transition-delay: 0s;
+        }
+
+        div:hover {
+            width: 105px;
+            height: 105px;
+            color: blue;
+            background-color: bisque;
+            text-align: center;
+            padding: 1%;
+            font-size: 30px;
+            background-image: url(photo.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 350px;
+            transform:scaleX(1.1) scaleY(1.1) ;
+            transition: 1s none;
+        }
+
+        #d3{
+            position: relative;
+            top: 0px;
+            left: 100px;
+            width: 100px;
+            height: 100px;
+            margin-left: 50;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>SIDDHISH</div>
+    <div id="di">BIHAR</div>
+    <div id="d2">AP</div>
+    <div id="d3">GUJRAT</div>
+</body>
+
+</html>

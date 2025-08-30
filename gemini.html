@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime no Sekai</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            background-image: url(animebackground.jpeg);
+            background-size: contain;
+        }
+
+        /* ... (rest of the styles remain the same) */
+
+        nav {
+            
+            position: relative; 
+        }
+
+        nav .genre-dropdown {
+            display: inline-block; 
+        }
+        nav .genre-button {
+            background-color: #eee;
+            color: #333;
+            font-weight: bold;
+            padding: 0.5rem 1rem; 
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav .genre-button:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+
+        nav .genre-content {
+            display: none; 
+            position: absolute; 
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1; 
+            border-radius: 5px;
+        }
+
+        nav .genre-content a {
+            color: #333;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block; 
+            transition: background-color 0.3s ease;
+        }
+
+        nav .genre-content a:hover {
+            background-color: #ddd;
+        }
+
+        nav .genre-dropdown:hover .genre-content {
+            display: block; 
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="head">
+        <a href="https://aniwatch.lv/">Home</a>
+        <a href="https://aniwatch.lv/anime/?status=&type=&order=update">New Releases</a>
+
+        <div class="genre-dropdown">
+            <button class="genre-button">Genre</button>
+            <div class="genre-content">
+                <a href="#">Action</a>
+                <a href="#">Romance</a>
+                <a href="#">School</a>
+                <a href="#">Sci-fi</a>
+                <a href="#">Adventure</a>
+                <a href="#">Horror</a>
+                <a href="#">Mystical</a>
+                <a href="#">Adult</a>
+                <a href="#">Harem</a>
+                <a href="#">Kids</a>
+                <a href="#">Fighting</a>
+                <a href="#">Sports</a>
+                <a href="#">Space</a>
+                <a href="#">Comedy</a>
+                <a href="#">Erotic</a>
+                <a href="#">Martial Arts</a>
+            </div>
+        </div>
+
+        <a href="#hi">About</a>
+    </nav>
+
+    </body>
+
+</html>
